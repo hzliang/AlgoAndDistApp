@@ -1,0 +1,752 @@
+
+<Feautres>
+	<Expose name="label">
+		<ohrange>0</ohrange>
+		<hbname>e1</hbname>
+		<targetflag>true</targetflag>
+		<trainflag>false</trainflag>
+		<ohflag>false</ohflag>
+	</Expose>
+	<Expose name="hour_expo_oh">
+		<ohrange>6</ohrange>
+		<hbname>e2</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Expose>
+	<Expose name="minute_expo_oh">
+		<ohrange>2</ohrange>
+		<hbname>e3</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Expose>
+	<Expose name="guid">
+		<ohrange>0</ohrange>
+		<hbname>e4</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>false</trainflag>
+		<ohflag>false</ohflag>
+	</Expose>
+	<House name="city_id">
+		<ohrange>0</ohrange>
+		<hbname>h1</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>false</trainflag>
+		<ohflag>false</ohflag>
+	</House>
+	<House name="pro_id">
+		<ohrange>0</ohrange>
+		<hbname>h2</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>false</trainflag>
+		<ohflag>false</ohflag>
+	</House>
+	<House name="broker_id">
+		<ohrange>0</ohrange>
+		<hbname>h3</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>false</trainflag>
+		<ohflag>false</ohflag>
+	</House>
+	<House name="region_id">
+		<ohrange>0</ohrange>
+		<hbname>h4</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>false</trainflag>
+		<ohflag>false</ohflag>
+	</House>
+	<House name="subregion_id">
+		<ohrange>0</ohrange>
+		<hbname>h5</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>false</trainflag>
+		<ohflag>false</ohflag>
+	</House>
+	<House name="comm_id">
+		<ohrange>0</ohrange>
+		<hbname>h6</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>false</trainflag>
+		<ohflag>false</ohflag>
+	</House>
+	<House name="rent_type_oh">
+		<ohrange>2</ohrange>
+		<hbname>h7</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="room_num_oh">
+		<ohrange>5</ohrange>
+		<hbname>h8</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="hall_num_oh">
+		<ohrange>5</ohrange>
+		<hbname>h9</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="toilet_num_oh">
+		<ohrange>5</ohrange>
+		<hbname>h10</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="pro_area_id_oh">
+		<ohrange>8</ohrange>
+		<hbname>h11</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="paymoney_num_oh">
+		<ohrange>13</ohrange>
+		<hbname>h12</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="pro_floor_oh">
+		<ohrange>4</ohrange>
+		<hbname>h13</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="pro_floor_num_oh">
+		<ohrange>4</ohrange>
+		<hbname>h14</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="decorate_oh">
+		<ohrange>7</ohrange>
+		<hbname>h15</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="price_desc_oh">
+		<ohrange>11</ohrange>
+		<hbname>h16</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="toward_oh">
+		<ohrange>11</ohrange>
+		<hbname>h17</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="deploy_oh">
+		<ohrange>2</ohrange>
+		<hbname>h18</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="deploy_size_oh">
+		<ohrange>3</ohrange>
+		<hbname>h19</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="created_days_oh">
+		<ohrange>4</ohrange>
+		<hbname>h20</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="updated_days">
+		<ohrange>4</ohrange>
+		<hbname>h21</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="share_type_oh">
+		<ohrange>5</ohrange>
+		<hbname>h22</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="is_highquality">
+		<ohrange>2</ohrange>
+		<hbname>h23</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="subway_oh">
+		<ohrange>2</ohrange>
+		<hbname>h24</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="traffic_oh">
+		<ohrange>2</ohrange>
+		<hbname>h25</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="school_oh">
+		<ohrange>2</ohrange>
+		<hbname>h26</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="hospital_oh">
+		<ohrange>2</ohrange>
+		<hbname>h27</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="market_oh">
+		<ohrange>2</ohrange>
+		<hbname>h28</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="super_market_oh">
+		<ohrange>2</ohrange>
+		<hbname>h29</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="vegetable_market_oh">
+		<ohrange>2</ohrange>
+		<hbname>h30</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="is_queue_j_2am">
+		<ohrange>2</ohrange>
+		<hbname>h31</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="is_pm_j_2am">
+		<ohrange>2</ohrange>
+		<hbname>h32</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="is_pm">
+		<ohrange>2</ohrange>
+		<hbname>h33</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="is_pm_d">
+		<ohrange>2</ohrange>
+		<hbname>h34</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="online_time_d">
+		<ohrange>2</ohrange>
+		<hbname>h35</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="is_pm_j">
+		<ohrange>2</ohrange>
+		<hbname>h36</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="is_window_ad_pm">
+		<ohrange>2</ohrange>
+		<hbname>h37</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="is_not_spread">
+		<ohrange>2</ohrange>
+		<hbname>h38</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="has_video">
+		<ohrange>2</ohrange>
+		<hbname>h39</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="is_first">
+		<ohrange>2</ohrange>
+		<hbname>h40</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="is_balcony">
+		<ohrange>2</ohrange>
+		<hbname>h41</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="is_elevator">
+		<ohrange>2</ohrange>
+		<hbname>h42</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="is_new">
+		<ohrange>2</ohrange>
+		<hbname>h43</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="is_park">
+		<ohrange>2</ohrange>
+		<hbname>h44</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="is_lbrz">
+		<ohrange>2</ohrange>
+		<hbname>h45</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="is_jdqq">
+		<ohrange>2</ohrange>
+		<hbname>h46</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="is_mfzj">
+		<ohrange>2</ohrange>
+		<hbname>h47</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="is_ssrz">
+		<ohrange>2</ohrange>
+		<hbname>h48</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="is_cgh">
+		<ohrange>2</ohrange>
+		<hbname>h49</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="is_qxzx">
+		<ohrange>2</ohrange>
+		<hbname>h50</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="is_qzqp">
+		<ohrange>2</ohrange>
+		<hbname>h51</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="is_dlwsj">
+		<ohrange>2</ohrange>
+		<hbname>h52</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="is_zw">
+		<ohrange>2</ohrange>
+		<hbname>h53</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<House name="is_dlws">
+		<ohrange>2</ohrange>
+		<hbname>h54</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</House>
+	<Broker name="company_id">
+		<ohrange>0</ohrange>
+		<hbname>b1</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>false</trainflag>
+		<ohflag>false</ohflag>
+	</Broker>
+	<Broker name="store_id">
+		<ohrange>0</ohrange>
+		<hbname>b2</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>false</trainflag>
+		<ohflag>false</ohflag>
+	</Broker>
+	<Broker name="team_id">
+		<ohrange>0</ohrange>
+		<hbname>b3</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>false</trainflag>
+		<ohflag>false</ohflag>
+	</Broker>
+	<Broker name="broker_lifecycle_oh">
+		<ohrange>10</ohrange>
+		<hbname>b4</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="reg_time_days_oh">
+		<ohrange>5</ohrange>
+		<hbname>b5</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="broker_sex_oh">
+		<ohrange>2</ohrange>
+		<hbname>b6</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="broker_age_oh">
+		<ohrange>5</ohrange>
+		<hbname>b7</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="pay_days_order_oh">
+		<ohrange>2</ohrange>
+		<hbname>b8</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="main_business_oh">
+		<ohrange>2</ohrange>
+		<hbname>b9</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="recharge_amount_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b10</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="person_recharge_amount_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b11</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="company_recharge_amount_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b12</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="recharge_times_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b13</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="person_recharge_times_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b14</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="company_recharge_times_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b15</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="pm_prop_zf_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b16</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="not_pm_prop_zf_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b17</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="pm_prop_zf_d_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b18</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="pm_prop_zf_d_hq_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b19</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="pm_prop_zf_j_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b20</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="pm_prop_zf_j_hq_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b21</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="new_prop_zf_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b22</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="new_pm_prop_zf_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b23</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="impression_window_ad_zf_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b24</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="pm_prop_window_ad_zf_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b25</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="vppv_valid_zf_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b26</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="vppv_valid_zf_d_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b27</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="vppv_valid_zf_d_app_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b28</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="vppv_valid_zf_j_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b29</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="vppv_valid_zf_j_app_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b30</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="vppv_valid_zf_pay_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b31</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="vppv_valid_zf_pay_d_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b32</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="vppv_valid_zf_pay_j_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b33</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="consume_amount_real_zf_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b34</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="consume_amount_real_zf_d_zf_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b35</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="consume_amount_real_zf_j_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b36</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="upload_videos_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b37</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="pass_videos_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b38</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="nopass_videos_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b39</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="video_prop_pm_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b40</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="video_prop_pm_j_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b41</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="video_vppv_valid_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b42</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<Broker name="video_vppv_valid_j_sum_oh">
+		<ohrange>2</ohrange>
+		<hbname>b43</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</Broker>
+	<User name="price_desc_like_oh">
+		<ohrange>11</ohrange>
+		<hbname>u1</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</User>
+	<User name="pro_area_id_like_oh">
+		<ohrange>8</ohrange>
+		<hbname>u2</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</User>
+	<User name="room_num_like_oh">
+		<ohrange>5</ohrange>
+		<hbname>u3</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</User>
+	<User name="decorate_like_oh">
+		<ohrange>7</ohrange>
+		<hbname>u4</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</User>
+	<User name="hall_num_like_oh">
+		<ohrange>5</ohrange>
+		<hbname>u5</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</User>
+	<User name="rent_type_like_oh">
+		<ohrange>2</ohrange>
+		<hbname>u6</hbname>
+		<targetflag>false</targetflag>
+		<trainflag>true</trainflag>
+		<ohflag>true</ohflag>
+	</User>
+</Feautres>
